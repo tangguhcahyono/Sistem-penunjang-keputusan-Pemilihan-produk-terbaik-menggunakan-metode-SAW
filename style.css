@@ -1,0 +1,55 @@
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #003366;
+  padding-top: 20px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+}
+.sidebar p {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f9f9f9;
+  display: block;
+}
+.sidebar a:hover {
+  background-color: #0e63b7;
+}
+/* Style active/current link */
+.sidebar a.active {
+  background-color: #0e63b7;
+}
+
+/* Main content */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+:focus {
+  outline: none;
+}
+.edit-container {
+  display: flex;
+}
+
+.table {
+  font-size: 20px; /* Ubah ukuran font sesuai keinginan */
+}
+
+th,
+td {
+  padding: 0.5rem; /* Kurangi padding untuk mengecilkan tabel */
+  font-size: 18px;
+}
